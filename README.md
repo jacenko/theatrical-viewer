@@ -1,6 +1,6 @@
 Theater movies at a glance. 
 ---
-Quickly and stylishly find out if you should go see the latest flicks tonight.
+Quickly and stylishly find out if you should see the latest flicks tonight.
 
 **Technologies used:**
 
@@ -12,6 +12,6 @@ Quickly and stylishly find out if you should go see the latest flicks tonight.
 Make sure to add a **keys.js** file to the root folder with the following:
 ```
 var rtKey = 'YOUR_ROTTEN_TOMATOES_API_KEY';
-var rtKey = 'YOUR_YOUTUBE_DATA_API_KEY';
+var ytKey = 'YOUR_YOUTUBE_DATA_API_KEY';
 ```
 ![](http://s11.postimg.org/5a659qsub/theatrical_viewer.png)
