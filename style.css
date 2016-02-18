@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  color: #22313F;
+}
+
+body {
+  line-height: 1;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.content {
+  text-align: center;
+  background-color: #F9BF3B;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.now-showing {
+  display: inline-block;
+  width: 100%;
+}
+
+ul {
+  border-width: 6px 0px 6px 0px;
+  border-color: #1BA39C;
+  border-style: solid;
+  height: 200px;
+  overflow: auto;
+}
+
+li {
+  background-color: #FFF;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 2px solid #6C7A89;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+li:hover {
+  background-color: #FDE3A7;
+}
+
+h1 {
+  margin: 20px 0px 5px 0px;
+  font-family: 'Fredoka One', Arial, sans-serif;
+}

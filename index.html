@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Movie Trailer Viewer</title>
+    <title>Theatrical Viewer</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>NOW SHOWING</h1>
-    <br />
-    <iframe width="320" height="180" src=""></iframe>
-    <br />
-    <ul id="movies"></ul>
+    <div class="content">
+      <iframe width="400" height="225" src=""></iframe>
+      <h1 class="now-showing">NOW SHOWING</h1>
+      <ul id="movies"></ul>
+    </div>
     <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
     <script src="keys.js"></script>
     <script src="main.js"></script>
