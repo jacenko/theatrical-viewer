@@ -1,4 +1,4 @@
-Theater movies at a glance. (www.deniss.co/movies)
+Theater movies at a glance.
 ---
 Quickly and stylishly find out if you should see the latest flicks tonight.
 
